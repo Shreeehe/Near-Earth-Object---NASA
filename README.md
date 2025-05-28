@@ -28,7 +28,7 @@ A beautifully designed, interactive dashboard to explore Near-Earth Objects (NEO
 
 ## 📄 Features
 
-### 🔎 1. Dashboard (app.py)
+### 🔎 1. Dashboard (home.py)
 
 * Filter asteroids by:
 
