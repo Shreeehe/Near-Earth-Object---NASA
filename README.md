@@ -8,7 +8,7 @@ A beautifully designed, interactive dashboard to explore Near-Earth Objects (NEO
 
 ```bash
 📁 Near Object Tracking/
-├── app.py                 # Page 1: Dashboard with filters
+├── home.py                 # Page 1: Dashboard with filters
 ├── pages/
 │   ├── 2_Queries.py       # Page 2: SQL Query Explorer
 │   └── 3_Insights.py      # Page 3: Fun Facts & Highlights
@@ -69,7 +69,7 @@ pip install streamlit pandas pymysql streamlit-extras
 4. Start the app:
 
 ```bash
-streamlit run app.py
+streamlit run home.py
 ```
 
 ---
