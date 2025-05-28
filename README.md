@@ -83,14 +83,15 @@ NEO data inspired by NASA's public API
 
 ## 📸 Screenshots
 
-### 🛰️ Dashboard Page
-![Dashboard](home.png)
+
+### 🛰️ Home Dashboard
+![Home](home.PNG)
 
 ### 📋 Query Explorer
-![Queries](Query.png)
+![Page 2](page%202.PNG)
 
 ### 🌌 Insights & Highlights
-![Insights](Insights.png)
+![Page 3](page%203.PNG)
 
 ---
 
