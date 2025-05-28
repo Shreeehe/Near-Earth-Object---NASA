@@ -37,7 +37,7 @@ A beautifully designed, interactive dashboard to explore Near-Earth Objects (NEO
   * Date Range
   * Hazardous status
   * Asteroid ID
-* Displays filtered results with a beautiful header and footer
+* Displays filtered results with a header and footer
 
 ### 📋 2. SQL Query Explorer (2\_Queries.py)
 
@@ -53,7 +53,6 @@ A beautifully designed, interactive dashboard to explore Near-Earth Objects (NEO
 * "Asteroid of the Day"
 * Trivia facts
 * Inspirational space quotes
-* Upcoming NEO flybys
 
 ---
 
@@ -84,7 +83,7 @@ NEO data inspired by NASA's public API
 
 ## 📸 Screenshots
 
-*Add screenshots here if needed (optional)*
+
 
 ---
 
