@@ -7,7 +7,7 @@ A beautifully designed, interactive dashboard to explore Near-Earth Objects (NEO
 ## 🌌 Project Structure
 
 ```bash
-📁 Near Object Tracking/
+📁 Near-Earth-Object---NASA/
 ├── home.py                 # Page 1: Dashboard with filters
 ├── pages/
 │   ├── 2_Queries.py       # Page 2: SQL Query Explorer
