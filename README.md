@@ -1,6 +1,6 @@
 # 🚀 NASA NEO Tracker — Streamlit Dashboard
 
-A beautifully designed, interactive dashboard to explore Near-Earth Objects (NEOs) using NASA's public data. Built with ❤️ by **Shri**, this app allows users to filter, query, and visualize asteroid data from a MySQL database.
+A beautifully designed, interactive dashboard to explore Near-Earth Objects (NEOs) using NASA's public data. Built with ❤️ by **Shri**, this app allows users to filter, a nd query asteroid data from a MySQL database.
 
 ---
 
