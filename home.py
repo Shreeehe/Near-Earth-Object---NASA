@@ -27,16 +27,36 @@ def get_connection():
 
 # Fetch data
 @st.cache_data
+@st.cache_data
 def get_data():
     conn = get_connection()
-    df = pd.read_sql("""
-        SELECT a.*, c.close_approach_date, c.relative_velocity_kmph, 
-               c.astronomical, c.miss_distance_km, c.miss_distance_lunar, c.orbiting_body
-        FROM asteroids a
-        JOIN close_approach c ON a.id = c.neo_reference_id
-    """, conn)
-    conn.close()
-    return df
+    
+    try:
+        df = pd.read_sql("""
+            SELECT 
+                a.id,
+                a.name,
+                a.absolute_magnitude_h,
+                a.estimated_diameter_min_km,
+                a.estimated_diameter_max_km,
+                a.is_potentially_hazardous_asteroid,
+                c.close_approach_date,
+                c.relative_velocity_kmph,
+                c.astronomical,
+                c.miss_distance_km,
+                c.miss_distance_lunar,
+                c.orbiting_body
+            FROM asteroids a
+            JOIN close_approach c ON a.id = c.neo_reference_id
+        """, conn)
+        return df
+
+    except Exception as e:
+        st.error(f" Failed to load asteroid data: {e}")
+        return pd.DataFrame()
+
+    finally:
+        conn.close()
 
 asteroids = get_data()
 asteroids["close_approach_date"] = pd.to_datetime(asteroids["close_approach_date"])
